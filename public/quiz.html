@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones Quiz</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+</head>
+<body>
+    <div class="title-container">
+        <h1 class="title">Quem você seria em Game of Thrones?</h1>
+    </div>
+     <div class="footer-signature">
+      <p style="font-family: 'Segoe Script', sans-serif;">DriDev</p>
+  </div>
+    <div class="container">
+        <div class="qualities">
+            <p>Qualidades:</p>
+            <button class="quiz-button" data-quality="leal">Leal</button>
+            <button class="quiz-button" data-quality="corajoso">Corajoso</button>
+            <button class="quiz-button" data-quality="inteligente">Inteligente</button>
+            <button class="quiz-button" data-quality="calculista">Calculista</button>
+            <button class="quiz-button" data-quality="carismatico">Carismático</button>
+        </div>
+        <div class="verify">
+            <button id="verifyButton">Verificar GOT</button>
+        </div>
+        <div class="defects">
+            <p>Defeitos:</p>
+            <button class="quiz-button" data-defect="ambicioso">Ambicioso</button>
+            <button class="quiz-button" data-defect="agressivo">Agressivo</button>
+            <button class="quiz-button" data-defect="desconfiado">Desconfiado</button>
+            <button class="quiz-button" data-defect="ganancioso">Ganancioso</button>
+            <button class="quiz-button" data-defect="frio">Frio</button>
+        </div>
+    </div>
+    <div id="characterResult" style="display: none; text-align: center;">
+        <h2>Você se parece com:</h2>
+        <div class="character-info">
+            <img id="characterImage" class="character-image" src="" alt="Personagem">
+            <p id="characterName" class="character-name"></p>
+        </div>
+        <button id="reloadButton">Jogar novamente</button>
+        <button id="backButton" onclick="window.location.href = 'index.html';">Voltar para tela principal</button> <!-- Botão para voltar para a tela principal -->
+    </div>
+    <div class="footer-links">
+        <a href="https://www.adorocinema.com/series/serie-7157/curiosidades/" target="_blank">Curiosidades sobre Game of Thrones</a>
+        <a href="https://entretenimento.uol.com.br/noticias/redacao/2019/05/29/game-of-thrones-os-dramas-da-vida-real-que-o-elenco-da-serie-enfrentou.html" target="_blank">Drama da vida real do elenco de Game of Thrones</a>
+    </div>
+    <div class="footer-signature">
+        <p style="font-family: 'Segoe Script', sans-serif;">DriDev</p>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
