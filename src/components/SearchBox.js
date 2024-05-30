@@ -15,6 +15,10 @@ const SearchBox = ({ onSearch, onToggleQuiz }) => {
     window.location.href = '/extras.html';
   };
 
+  const handleLojaGotClick = () => {
+    window.open('https://lista.mercadolivre.com.br/game-of-trones_NoIndex_True', '_blank');
+  };
+
   return (
     <div className="search-bar">
       <input
@@ -32,6 +36,9 @@ const SearchBox = ({ onSearch, onToggleQuiz }) => {
       </button>
       <button className="button" onClick={onToggleQuiz}>
         Quiz
+      </button>
+      <button className="button" onClick={handleLojaGotClick}>
+        LojaGot
       </button>
     </div>
   );
