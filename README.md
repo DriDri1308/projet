@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+Game of Thrones Fan Project
+Este é um projeto dedicado aos amantes da série Game of Thrones, criado para trazer nostalgia e interatividade aos fãs. O projeto inclui várias funcionalidades para relembrar os momentos da série e se envolver ainda mais com o universo de Westeros.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Funcionalidades
+1. Cards de Personagens
+Exibe cards com imagens, nomes e casas dos personagens principais da série.
+Permite aos usuários clicar nos cards para obter mais informações sobre cada personagem.
+2. Galeria de Imagens Extras
+Apresenta uma coleção de imagens extras dos bastidores e posters criados por fãs, oferecendo uma visão ampla do universo de Game of Thrones.
+3. Quiz Interativo
+Oferece aos usuários a oportunidade de descobrir com qual personagem eles mais se parecem, permitindo que escolham características próprias para encontrar uma correspondência na série.
+Apresenta uma variedade de perguntas sobre qualidades e defeitos para determinar o resultado do quiz.
+4. Link Direto para o Mercado Livre
+Fornece acesso direto a itens exclusivos da série Game of Thrones e seus personagens, disponíveis para compra no Mercado Livre.
+Como Executar o Projeto
+Clone este repositório em sua máquina local.
+Instale as dependências usando npm install.
+Execute o projeto com npm start.
+Acesse http://localhost:3000 em seu navegador para visualizar o projeto.
+Tecnologias Utilizadas
+React.js
+HTML5
+CSS3
+Créditos
+Este projeto foi desenvolvido por [Seu Nome] como parte de um projeto pessoal para os fãs de Game of Thrones.
 
-## Available Scripts
+Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novas funcionalidades.
 
-In the project directory, you can run:
+Contato
+Para mais informações, entre em contato via email: [du.auxilio20@gmail.com]
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sinta-se à vontade para ajustar o README conforme necessário e adicionar mais detalhes sobre o projeto.
