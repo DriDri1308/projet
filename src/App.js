@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import CardList from './components/CardList';
-import Button from './components/Button';
+import Button from './components/Button'; // Importando o componente Button
 import SearchBox from './components/SearchBox';
 import './card.css';
 
@@ -25,13 +25,29 @@ const App = () => {
         }
         const data = await response.json();
         setCharacters(data);
-        setFilteredCharacters(data); // Initialize filteredCharacters with all characters
+        setFilteredCharacters(data);
       } catch (error) {
         console.error('Error fetching characters: ' + error.message);
       }
     };
 
     fetchCharacters();
+  }, []);
+
+  useEffect(() => {
+    function addFlipEvent() {
+      const cards = document.querySelectorAll('.card');
+
+      cards.forEach(card => {
+        card.addEventListener('click', () => {
+          card.classList.toggle('flipped');
+        });
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      addFlipEvent();
+    });
   }, []);
 
   const itemsPerPage = 6;
@@ -63,7 +79,7 @@ const App = () => {
     } else {
       setFilteredCharacters(filtered);
       setSearchQuery(query);
-      setPage(1); // Reset to first page after search
+      setPage(1);
     }
   };
 
@@ -78,7 +94,7 @@ const App = () => {
   const handleResetSearch = () => {
     setFilteredCharacters(characters);
     setSearchQuery('');
-    setPage(1); // Reset to first page
+    setPage(1);
   };
 
   return (
@@ -90,15 +106,15 @@ const App = () => {
       <CardList characters={selectedCharacters} />
       <div className="pagination">
         {page > 1 && (
-          <Button onClick={handlePreviousPage} label="Página Anterior" />
+          <Button onClick={handlePreviousPage} label="Página Anterior" className="button pagination-button" />
         )}
         {filteredCharacters.length > startIndex + itemsPerPage && (
-          <Button onClick={handleNextPage} label="Próxima Página" />
+          <Button onClick={handleNextPage} label="Próxima Página" className="button pagination-button" />
         )}
       </div>
       {searchQuery && (
         <div className="reset-search">
-          <Button onClick={handleResetSearch} label="Voltar" />
+          <Button onClick={handleResetSearch} label="Voltar" className="button" />
         </div>
       )}
     </div>

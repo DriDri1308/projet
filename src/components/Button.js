@@ -1,9 +1,8 @@
 import React from 'react';
-import './Card.css';
 
-const Button = ({ onClick, label, type, style }) => {
+const Button = ({ onClick, label, className }) => {
   return (
-    <button type={type} className="button" onClick={onClick} style={style}>
+    <button className={`button ${className}`} onClick={onClick}>
       {label}
     </button>
   );

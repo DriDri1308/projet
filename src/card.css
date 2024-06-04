@@ -130,15 +130,21 @@ body {
   margin-top: 20px;
 }
 
-.pagination {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.pagination-button {
+  padding: 10px 25px;
+  font-size: 15px;
+  height: 50px;
+  box-sizing: border-box;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  margin-left: 18px;
+  border-radius: 50px;
 }
 
-.pagination button {
-  margin: 0 75px;
+.pagination-button:hover {
+  background-color: #0056b3;
 }
 
 .extra-images {
@@ -172,4 +178,51 @@ body {
   animation: fireAnimation 1.5s infinite alternate; /* Efeito de animação */
   opacity: 0.9; /* Opacidade */
   font-size: 24px; /* Tamanho da fonte */
+}
+.card {
+  width: 200px; /* Ajuste o tamanho conforme necessário */
+  height: 300px; /* Ajuste o tamanho conforme necessário */
+  perspective: 1000px; /* Define a perspectiva para o efeito de rotação */
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s; /* Adiciona uma transição suave para a animação de rotação */
+  transform-style: preserve-3d; /* Mantém os elementos filhos em 3D */
+}
+
+.card.is-flipped .card-inner {
+  transform: rotateY(180deg); /* Rotaciona o cartão para mostrar a parte de trás */
+}
+
+.card-front, .card-back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Oculta o elemento quando virado para trás */
+  position: absolute;
+}
+
+.card-back {
+  transform: rotateY(180deg); 
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Oculta o elemento quando virado para trás */
+  position: absolute;
+  display: flex; /* Usando flexbox para centralizar vertical e horizontalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: flex-end; /* Alinha o conteúdo no final */
+  text-align: center; /* Centraliza o texto */
+  background-image: url('https://listasnerds.com.br/wp-content/uploads/2021/10/Dragoes_Game-of-Thrones-850x560.png'); /* Adiciona a imagem de fundo */
+  background-size: cover; /* Para garantir que a imagem cubra todo o elemento */
+  background-position: center; /* Para centralizar a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem de fundo seja repetida */
+  color: rgb(19, 15, 15); /* Cor do texto */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 5px; /* Borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.bold {
+  font-weight: bold; /* Deixa o texto em negrito */
 }

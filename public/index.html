@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>React App</title>
-  </head>
-  <body>
-    <div class="video-background">
-      <video id="video-bg" autoplay muted loop>
-        <source src="https://motionbgs.com/media/2222/jon-snow-game-of-thrones.960x540.mp4" type="video/mp4">
-      </video>
-      </video>
-    </div>
-    <div class="footer-signature">
-      <p style="font-family: 'Segoe Script', sans-serif;">DriDev</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personagens de Game of Thrones</title>
+  <link rel="stylesheet" href="card.css">
+</head>
+<body>
+  <div class="video-background">
+    <video id="video-bg" autoplay muted loop>
+      <source src="https://motionbgs.com/media/2222/jon-snow-game-of-thrones.960x540.mp4" type="video/mp4">
+    </video>
   </div>
-    <div id="root"></div>
-  </body>
+  <div id="root">
+    <!-- Cards serão inseridos aqui -->
+  </div>
+  <div class="footer-signature">
+    <p style="font-family: 'Segoe Script', sans-serif;">DriDev</p>
+  </div>
+  <script src="App.js"></script>
+</body>
 </html>

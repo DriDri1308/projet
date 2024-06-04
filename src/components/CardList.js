@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card';
+import Card from './Card'; // Verifique se o caminho para o arquivo Card.js está correto
 
 const CardList = ({ characters }) => {
   return (

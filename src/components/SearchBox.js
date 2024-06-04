@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const SearchBox = ({ onSearch, onToggleQuiz }) => {
+const SearchBox = ({ onSearch, onToggleQuiz, onNextPage, onPreviousPage }) => {
   const [query, setQuery] = useState('');
 
   const handleInputChange = (event) => {
@@ -40,6 +40,7 @@ const SearchBox = ({ onSearch, onToggleQuiz }) => {
       <button className="button" onClick={handleLojaGotClick}>
         LojaGot
       </button>
+
     </div>
   );
 };
