@@ -8,7 +8,7 @@ body, html {
 
 .title {
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0;
     font-size: 3em;
     color: rgb(2, 2, 10);
     animation: fireAnimation 2s infinite alternate;
@@ -25,12 +25,12 @@ body, html {
         text-shadow: 0 0 10px rgb(228, 228, 238), 0 0 20px rgb(188, 207, 15), 0 0 30px rgb(237, 237, 247), 0 0 40px rgb(236, 236, 241), 0 0 50px blue, 0 0 60px blue, 0 0 70px blue, 0 0 80px blue;
     }
 }
-
 .image-container {
-    flex: 1; /* Ocupa o espaço restante */
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: -100px; /* Adiciona margem inferior para separar a imagem dos botões */
 }
 
 .current-image {
@@ -43,14 +43,13 @@ body, html {
 .current-image:hover {
     transform: scale(1.1); /* Aumenta em 10% ao passar o mouse */
 }
-
 .pagination {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: -10px; /* Ajusta a margem superior para -10px */
+    margin-bottom: 20px; /* Aumenta a margem inferior para separar os botões do rodapé */
 }
-
 .pagination button {
     padding: 10px 20px;
     background-color: #ffcc00;
@@ -74,6 +73,7 @@ body, html {
 .pagination button + button {
     margin-left: 10px;
 }
+
 .footer-signature {
     position: fixed;
     bottom: 10px;

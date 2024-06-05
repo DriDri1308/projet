@@ -8,11 +8,19 @@ const Card = ({ personagem }) => {
     setMostrarCausaMorte(!mostrarCausaMorte);
   };
 
+  const handleMouseLeave = () => {
+    setMostrarCausaMorte(false);
+  };
+
   // Encontre a causa de morte correspondente ao nome do personagem
   const causaDeMorteTexto = causaDeMorte.find(item => item.firstName === personagem.firstName)?.causaDeMorte;
 
   return (
-    <div className={`card ${mostrarCausaMorte ? 'is-flipped' : ''}`} onClick={toggleCausaMorte}>
+    <div
+      className={`card ${mostrarCausaMorte ? 'is-flipped' : ''}`}
+      onClick={toggleCausaMorte}
+      onMouseLeave={handleMouseLeave}
+    >
       <div className="card-inner">
         <div className="card-front">
           <img src={personagem.imageUrl} alt={personagem.fullName} />
@@ -21,10 +29,10 @@ const Card = ({ personagem }) => {
           <p>Família: {personagem.family}</p>
         </div>
         <div className="card-back">
-  <p style={{ background: 'white', padding: '10px', borderRadius: '5px' }}>
-    <strong>Causa de Morte:</strong> {causaDeMorteTexto ? causaDeMorteTexto : 'VIVO'}
-  </p>
-</div>
+          <p style={{ background: 'white', padding: '10px', borderRadius: '5px' }}>
+            <strong>Causa de Morte:</strong> {causaDeMorteTexto ? causaDeMorteTexto : 'VIVO'}
+          </p>
+        </div>
       </div>
     </div>
   );

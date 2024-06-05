@@ -3,7 +3,7 @@ var characterMapping = {
     "leal_agressivo": { name: "Jon Snow", imageUrl: "https://thronesapi.com/assets/images/jon-snow.jpg" },
     "leal_desconfiado": { name: "Brienne of Tarth", imageUrl: "https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/31/1501702956-got8.jpg?crop=0.608xw:0.923xh;0.392xw,0&resize=2048:*" },
     "leal_ganancioso": { name: "Davos Seaworth", imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZD6b6P5UVpBybj5kRlVj1-2lJon4cK6GIWbvpg8IjGw&s" },
-    "leal_frio": { name: "Ned Stark", imageUrl: "https://www.hollywoodreporter.com/wp-content/uploads/2017/11/got-110-h_2017.jpg?w=1296" },
+    "leal_frio": { name: "Daenerys Targaryen", imageUrl: "https://www.hollywoodreporter.com/wp-content/uploads/2017/11/got-110-h_2017.jpg?w=1296" },
     "corajoso_ambicioso": { name: "Daenerys Targaryen", imageUrl: "https://upload.wikimedia.org/wikipedia/en/0/0d/Daenerys_Targaryen_with_Dragon-Emilia_Clarke.jpg" },
     "corajoso_agressivo": { name: "Arya Stark", imageUrl: "https://thronesapi.com/assets/images/arya-stark.jpg" },
     "corajoso_desconfiado": { name: "Sansa Stark", imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6sOgUfsQHhT-t_bPTxDPp2e9k50WpP_oUnef4g1P_XSoPW2noeQ-sbrfTpUiUbeag5L4&usqp=CAU" },

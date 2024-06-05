@@ -66,19 +66,19 @@ body {
     padding: 20px; /* Aumenta o padding para 20px */
     border: none;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #ffffff;
     cursor: pointer;
     width: 100%;
     max-width: 200px; /* Aumenta a largura máxima para 300px */
 }
 
 .quiz-button:hover {
-    background-color: #ddd;
+    background-color: #390ddb;
 }
 
 .quiz-button.selected {
     background-color: #1100ff;
-    color: white;
+    color: #eeedf3;
 }
 
 .verify {
