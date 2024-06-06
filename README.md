@@ -50,14 +50,10 @@ Este é um projeto dedicado aos amantes da série Game of Thrones, criado para t
 - **Animações e Transições**: Implementamos animações suaves e transições para melhorar a experiência do usuário.
 - **Flexbox e Grid Layout**: Utilizamos Flexbox e Grid Layout para criar layouts complexos e fluidos com facilidade.
 
-## Créditos
-
-Este projeto foi desenvolvido por <strong>DriDev</strong> como parte de um projeto pessoal para os fãs de Game of Thrones.
-
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novas funcionalidades.
 
 ## Contato
 
-Para mais informações, entre em contato via email: du.auxilio20@gmail.com
+Para mais informações, entre em contato via email: du.auxilio20@gmail.com tel: 11-97753-0171 
