@@ -1,6 +1,6 @@
 <h1 align="center"><strong style="color:red;">Game of Thrones Fan Project</strong></h1>
 
-Este é um projeto dedicado aos amantes da série Game of Thrones, criado para trazer nostalgia e interatividade aos fãs. O projeto inclui várias funcionalidades para relembrar os momentos da série e se envolver ainda mais com o universo de Westeros.
+Este é um projeto dedicado aos amantes da série Game of Thrones, criado para trazer nostalgia e interatividade aos fãs. O projeto inclui várias funcionalidades para relembrar os momentos da série e se envolver ainda mais com o universo de Westeros.O projeto foi desenvolvido por **DriDev**, como parte do programa de formação de novos desenvolvedores da [Campinho Digital Escola de Novos Devs](https://edu.campinhodigital.org/).
 
 ![Game of Thrones Fan Project](https://github.com/DriDri1308/projet/raw/master/Captura%20de%20tela%20de%202024-06-05%2020-10-02.png)
 
@@ -24,7 +24,6 @@ Este é um projeto dedicado aos amantes da série Game of Thrones, criado para t
 
 [![Campinho Digital](https://edu.campinhodigital.org/pluginfile.php/1/core_admin/logocompact/300x300/1707862617/logo_campinho_compacto.png)](https://edu.campinhodigital.org/)
 
-Este projeto foi desenvolvido por **DriDev**, como parte do programa de formação de novos desenvolvedores da [Campinho Digital Escola de Novos Devs](https://edu.campinhodigital.org/).
 ## Como Executar o Projeto
 
 1. Clone este repositório em sua máquina local.
@@ -32,11 +31,24 @@ Este projeto foi desenvolvido por **DriDev**, como parte do programa de formaç�
 3. Execute o projeto com `npm start`.
 4. Acesse `http://localhost:3000` em seu navegador para visualizar o projeto.
 
+
 ## Tecnologias Utilizadas
 
-- React.js
-- HTML5
-- CSS3
+### React.js
+- **Componentização**: Utilizamos React.js para criar componentes reutilizáveis, como `Card`, `CardList`, e `SearchBox`.
+- **Gerenciamento de Estado**: Usamos hooks como `useState` e `useEffect` para gerenciar o estado da aplicação e as operações assíncronas.
+- **Comunicação com API**: Integramos a aplicação com a API backend para buscar e exibir dados dinâmicos dos personagens.
+- **Roteamento**: Implementamos a navegação entre páginas de forma eficiente usando bibliotecas de roteamento como `react-router`.
+
+### HTML5
+- **Estrutura Semântica**: Utilizamos tags semânticas do HTML5 para criar uma estrutura de documento clara e acessível.
+- **Formulários e Entradas**: Criamos formulários interativos e elementos de entrada para a busca de personagens.
+- **Multimídia**: Incorporamos imagens e outros elementos multimídia de forma eficiente.
+
+### CSS3
+- **Estilização Responsiva**: Utilizamos media queries para garantir que a aplicação seja responsiva e adaptável a diferentes dispositivos e tamanhos de tela.
+- **Animações e Transições**: Implementamos animações suaves e transições para melhorar a experiência do usuário.
+- **Flexbox e Grid Layout**: Utilizamos Flexbox e Grid Layout para criar layouts complexos e fluidos com facilidade.
 
 ## Créditos
 
