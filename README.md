@@ -20,9 +20,11 @@ Este é um projeto dedicado aos amantes da série Game of Thrones, criado para t
 ### Link Direto para o Mercado Livre
 - Fornece acesso direto a itens exclusivos da série Game of Thrones e seus personagens, disponíveis para compra no Mercado Livre.
 
-### Referência à Campinho Digital Escola de Novos Devs
-<img src="https://edu.campinhodigital.org/pluginfile.php/1/core_admin/logocompact/300x300/1707862617/logo_campinho_compacto.png" class="logo mr-1" alt="Campinho Digital"> Este projeto foi desenvolvido como parte do programa de formação de novos desenvolvedores da [Campinho Digital Escola de Novos Devs](https://edu.campinhodigital.org/).
+## Referência à Campinho Digital Escola de Novos Devs
 
+[![Campinho Digital](https://edu.campinhodigital.org/pluginfile.php/1/core_admin/logocompact/300x300/1707862617/logo_campinho_compacto.png)](https://edu.campinhodigital.org/)
+
+Este projeto foi desenvolvido por **DriDev**, como parte do programa de formação de novos desenvolvedores da [Campinho Digital Escola de Novos Devs](https://edu.campinhodigital.org/).
 ## Como Executar o Projeto
 
 1. Clone este repositório em sua máquina local.
