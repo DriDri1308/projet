@@ -2,7 +2,7 @@
 
 Este é um projeto dedicado aos amantes da série Game of Thrones, criado para trazer nostalgia e interatividade aos fãs. O projeto inclui várias funcionalidades para relembrar os momentos da série e se envolver ainda mais com o universo de Westeros.
 
-![Game of Thrones Fan Project](https://github.com/DriDri1308/projet/blob/master/Captura%20de%20tela%20de%202024-06-05%2020-10-02.png)
+![Game of Thrones Fan Project](https://github.com/DriDri1308/projet/raw/master/Captura%20de%20tela%20de%202024-06-05%2020-10-02.png)
 
 ## Funcionalidades
 
